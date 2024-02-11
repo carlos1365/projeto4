@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 04</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div>
+
+    <header>
+
+        <h1>Avalie a sua mentoria</h1>
+
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+
+    </header>
+
+    <img src="/image/img1 (2).png" class="img">
+    <form class="muryo">
+
+        <legend>Informações pessoais</legend>
+
+    </form>
+    
+    <form id="form">
+
+    <fieldset>
+
+    <div class="fild"> 
+
+    
+    <div class="input-2">
+        
+        <label for="id-1">Nome</label>
+        <input type="text" id="id-1" required/>
+    
+    </div> 
+
+    <div class="input-2">
+
+        <label for="id-2">Sobrenome</label>
+        <input type="text" id="id-2" required/>
+    
+    </div>
+
+   
+    
+</div>
+
+ </fieldset>
+
+ <fieldset>
+
+  <div class="input-1">
+
+    <label for="contact">Email <span>(digite um email válido)</span></label>
+    <input type="email" id="contact" required/>
+
+  </div>
+
+</fieldset>
+
+ <fieldset>
+
+    <legend class="title">Informações do mentor</legend>
+
+    <div id="line"></div>
+
+    <div class="kaisen">
+
+    <label for="category">Selecione quem foi o seu mentor</label>  
+           
+    <select id="category" required>
+        <option value="Live">Mayk</option>
+        <option value="Podcast">Mayk Brito</option>
+        <option value="Mentorshhip">Brito</option>
+
+   </select>
+
+ <div id="ryu">
+
+   <label for="comentários">Feedback sobre o mentor</label>
+   <textarea id="comentários"></textarea>
+
+</div>
+
+<div class="checkbox">
+
+    <input type="checkbox" id="dúvidas" required/>
+    <label for="dúvidas">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+
+</div>
+
+    </div>
+
+ </fieldset>
+
+ <fieldset>
+
+    <legend class="title">Agendando próxima mentoria</legend>
+
+    <div id="line"></div>
+
+    <div class="basara">
+
+    <div class="boxe">
+
+        <label for="date">Data<span>(DD/MM/AAAA)</span> </label>
+        <input type="date" id="date" required/>
+
+    </div>
+
+    <div class="box">
+
+        <label for="das">Das</label>
+        <input type="time" id="das" required/>
+
+    </div>
+
+    <div class="box">
+
+        <label for="ate">Até</label>
+        <input type="time" id="ate" required/>
+
+    </div>
+
+</div>
+
+ </fieldset>
+
+ 
+
+    <footer>
+
+        <input type="submit" form="form" class="button" value="Salvar">
+     
+    </footer>
+
+</form>
+    
+</body>
+
+</div>
+
+</html>
